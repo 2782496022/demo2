@@ -1,0 +1,18 @@
+spring:
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/ad?serverTimezone=CTT
+    hikari:
+      username: root
+      password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+
